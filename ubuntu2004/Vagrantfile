@@ -2,7 +2,7 @@ Vagrant.require_version ">= 2.0.0"
 
 VM_IMG = "ubuntu/focal64"
 VM_NAME = "ubuntu2004-vagrants"
-VM_MEM = ENV["VM_MEM"] || 4096
+VM_MEM = ENV["VM_MEM"] || 8192
 
 system("
     if [ #{ARGV[0]} = 'up' ]; then
